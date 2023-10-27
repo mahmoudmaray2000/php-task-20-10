@@ -164,3 +164,105 @@
 //     }
 //     echo "\n";
 // }
+
+
+// 11 //
+// function checkPositiveNegative($number) {
+//     if ($number > 0) {
+//         return "$number is positive.";
+//     } elseif ($number < 0) {
+//         return "$number is negative.";
+//     } else {
+//         return "$number is zero (neither positive nor negative).";
+//     }
+// }
+
+// // Test cases
+// $result1 = checkPositiveNegative(5);   // Returns "5 is positive."
+// $result2 = checkPositiveNegative(-8);  // Returns "-8 is negative."
+// $result3 = checkPositiveNegative(0);   // Returns "0 is zero (neither positive nor negative)."
+
+// echo $result1 . "\n";
+// echo $result2 . "\n";
+// echo $result3 . "\n";
+
+// 12 //
+
+// $elements = []; // Initialize an empty array
+
+// // Collect user input
+// for ($i = 0; $i < 10; $i++) {
+//     $elements[$i] = readline("element - $i : ");
+// }
+
+// // Print the elements
+// echo "The elements in the array are:\n";
+// foreach ($elements as $key => $value) {
+//     echo "element - $key : $value\n";
+// }
+
+
+// 13 //
+
+// function calculateSum($num1, $num2) {
+//     $sum = $num1 + $num2;
+//     return $sum;
+// }
+
+// // Test case
+// $num1 = 5;
+// $num2 = 7;
+// $result = calculateSum($num1, $num2);
+
+// echo "The sum of $num1 and $num2 is: $result";
+
+// 14 //
+
+// function factorial($n) {
+//     if ($n == 0 || $n == 1) {
+//         return 1;
+//     } else {
+//         return $n * factorial($n - 1);
+//     }
+// }
+
+// // Get user input
+// $num = readline("Input the number: ");
+
+// // Calculate factorial
+// $result = factorial($num);
+
+// echo "The Factorial of $num is: $result";
+
+
+// 15 //
+
+// function add($num1, $num2) {
+//     return $num1 + $num2;
+// }
+
+// function subtract($num1, $num2) {
+//     return $num1 - $num2;
+// }
+
+// function multiply($num1, $num2) {
+//     return $num1 * $num2;
+// }
+
+// function divide($num1, $num2) {
+//     if ($num2 != 0) {
+//         return $num1 / $num2;
+//     } else {
+//         return "Error: Division by zero is not allowed.";
+//     }
+// }
+
+// // Test cases
+// $num1 = 10;
+// $num2 = 5;
+
+// echo "Addition: " . add($num1, $num2) . "\n";
+// echo "Subtraction: " . subtract($num1, $num2) . "\n";
+// echo "Multiplication: " . multiply($num1, $num2) . "\n";
+// echo "Division: " . divide($num1, $num2) . "\n";
+
